@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container-parent{
+    width: 100%;
+}
+/* navbar */
+.navbar{
+    padding: 0% 70px;
+    height: 50px;
+    background-color: #444;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navbar a {
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 2px;
+    height: 100%;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto kufia Arabic'sans-serif;
+}
+.navbar a:hover{
+   background-color: rgb(135, 135, 135);
+}
+.navbar a i{
+    color: white;
+    font-size: 16px;
+}
+
+.navbar  img{
+   width: 140px;
+   padding: 7px;
+   background-color: #444;
+}
+main{
+    min-height: 80vh;
+    background-image:url(jhj.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main h3{
+    font-size: 50px;
+    font-family:  'Noto kufi Arabic', sans-serif;
+    text-align: center;
+} 
+main p{
+    font-size: 20px;
+    margin: 20PX 0Px;
+}
+main .parent-search{
+    position: relative;
+
+}
+main input{
+    width: 650px;
+    height: 60px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: none !important;
+    outline: none !important;
+}
+
+main input::placeholder{
+    font-size: 20px;
+}
+main button{
+    width: 80px;
+    height: 80%;
+    position: absolute;
+    top: 50PX;
+    left: 5PX;
+    background: none;
+    background-color: #e6d222f6;
+    font-size: 18px;
+    color: rgb(66, 61, 61);
+    transform: translatey(-90%);
+}
+main button:hover{
+    background-color: rgb(4, 36, 3);
+    
+}
+
+   /* services start */
+
+.services{
+    min-height: 100vh;
+    padding: 50px;
+    width: 100%;
+}
+
+.services h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+.services .parent-services .service{
+    width: 23%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('ph.jpg');
+    background-size: 100% 100%;
+    margin: 10px auto;
+    position: relative;
+}
+.services .parent-services{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services .parent-services .service::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: -4;
+}
+.services .parent-services .service-two{
+    background-image: url(backgound.jpg);
+
+}
+.services .parent-services .service-three{
+    background-image: url(صوره.jpg);
+}
+.services .parent-services .service-four{
+    background-image: url(download.jpg);
+}
+.services .parent-services .service-five{
+    background-image: url(one.jpg);
+}
+.services .parent-services .service-six{
+    background-image: url(jj.jpg);
+}
+.services .parent-services .service-seven{
+    background-image: url(ww.jpg);
+}
+.services .parent-services .service-eight{
+    background-image: url(hh.jpg);
+}
+.services .parent-services .service p{
+    font-size: 40PX;
+    color: rgba(255, 255, 255, 0.938);
+    position: relative;
+    z-index: 1;
+}
+.all-services{
+    width: 100%;
+    padding: 50px 70px 100px;
+    background-color:rgba(233, 230, 230, 0.747);
+}
+.all-services .sectino-three-services .tittle{
+font-size: 40px;
+text-align: center;
+text-decoration: none !important;
+}
+
+.all-services .sectino-three-services .sarhan{
+    width: 100%;
+    margin: 20PX 0PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px; 
+}
+.all-services .sectino-three-services .sarhan a{
+    padding: 0px 10px;
+    font-size: 18px;
+    text-decoration: none !important;
+    border: 0px solid;
+    background-color: white;
+    color: black;
+    font-family:'Noto kufi Arabic', sans-serif;
+    transition:0.2s all linear;
+}
+
+.all-services .sectino-three-services .sarhan a:hover{
+    background-color: rgb(189, 0, 0);
+    color: white;
+} 
+.name{
+    font-size: 50px;
+    color: rgb(32, 30, 25);
+    text-align: center;
+    font-family:'Noto kufi Arabic', sans-serif;
+    background-color: rgb(122, 238, 27);
+    border-style: double;
+    border-color: aliceblue;
+}
+.name:hover{
+    background-color: rgb(46, 126, 15);
+    color: rgb(255, 254, 251);
+}
+
+
